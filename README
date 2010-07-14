@@ -1,0 +1,6 @@
+Hello world!
+
+this is the first version of the pyccuracy major mode for emacs. It only supports text highlighting so far. Intallation is insanelly easy. All you have to do is to add these lines to your .emacs files:
+
+(add-to-list 'load-path "<path to installation>") ; please replace <path to installation>  to the directory where pyccuracy.el has been downloaded.
+(require 'pyccuracy-mode)
