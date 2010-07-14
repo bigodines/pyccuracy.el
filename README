@@ -4,3 +4,7 @@ this is the first version of the pyccuracy major mode for emacs. It only support
 
 (add-to-list 'load-path "<path to installation>") ; please replace <path to installation>  to the directory where pyccuracy.el has been downloaded.
 (require 'pyccuracy-mode)
+
+
+screenshots available as well!!
+"Look-and-feel":http://github.com/bigodines/pyccuracy.el/raw/master/screenshots/screen1.png
