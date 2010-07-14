@@ -1,15 +1,12 @@
-; pyccuracy major mode
+; pyccuracy major mode for emacs
+; by bigo
+; license: BSD.
 
 ;;; code:
 
 (setq pyccuracy-mode-version "1")
 
 (add-to-list 'auto-mode-alist '("\\.acc\\'" . pyccuracy-mode))
-
-;(defgroup pyccuracy-mode nil
-;  "Major mode for editing pyccuracy tests."
-;  :group 'languages)
-
 
 ;;; TODO: indent, templates, syntax and etc.
 
@@ -42,10 +39,5 @@
         (,pyccuracy-entities-regexp . font-lock-function-name-face)
         (,pyccuracy-keywords-regexp . font-lock-keyword-face)
 ))
-  ;(set-syntax-table pyccuracy-mode-syntax-table)
-  ;(set (make-local-variable 'font-lock-defaults) '(pyccuracy-font-lock-keywords))
-  ;(setq major-mode 'pyccuracy)
-  ;(setq mode-name "Pyccuracy")
-  ;(run-hooks 'pyccuracy-mode-hook))
 
 (provide 'pyccuracy-mode)
